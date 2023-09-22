@@ -1,0 +1,81 @@
+@media (max-width: 100%)
+
+
+#header{
+
+}
+
+#navigasi{
+    background-color: #836853;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navigasi ul{
+    list-style: none;
+    padding: 0;
+}
+
+#navigasi ul li{
+    display: inline;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#navigasi ul li a{
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.2s;
+}
+
+#navigasi ul li a:hover{
+    padding: auto;
+    background-color: #fff;
+    color: #AC9D8E;
+}
+
+header{
+    background-color: #D1C3B7;
+    padding: 20px;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    justify-content: space-between;
+    text-align: center;
+    color: #000;
+}
+
+body{
+    background-color: #D1C3B7;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+p{
+    max-width: 100%;
+}
+
+label,
+input{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.deretfibonacci {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

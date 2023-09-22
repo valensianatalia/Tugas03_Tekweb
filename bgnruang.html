@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Volume Bangun Ruang</title>
+        <link rel="stylesheet" type="text/css" href="bgnruang.css">
+    </head>
+
+    <header>
+        <h1 id="fibonacci">Volume Bangun Ruang</h1>
+        <nav id="navigasi">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="fibonacci.html">Deret Fibonacci</a></li>
+                <li><a href="bgnruang.html">Bangun Ruang</a></li>
+            </ul>
+            </nav>
+    </header>
+
+    <body>
+        <p style="margin-left: 21px;">Berikut merupakan formulir yang <b> wajib diisi</b>
+            sebagai input untuk melanjutkan ke perhitungan :</p><br>
+        
+        <div class="calculator">
+            <label for="bentuk">Pilih Satu Bentuk Bangun Ruang :</label>
+            <select id="bentuk" onchange="tampilkanForm()">
+                <option value="kubus">Kubus</option>
+                <option value="balok">Balok</option>
+                <option value="tabung">Tabung</option>
+            </select>
+        
+        <div id="form-kubus">
+            <label for="sisi">Masukkan Panjang Sisi (cm):</label>
+            <input type="number" id="sisi-kubus">
+        </div>
+
+        <div id="form-balok" style="display:none;">
+            <label for="panjang">Masukkan Panjang (cm):</label>
+            <input type="number" id="panjang-balok">
+            <br>
+            <label for="lebar">Masukkan Lebar (cm):</label>
+            <input type="number" id="lebar-balok">
+            <br>
+            <label for="tinggi">Masukkan Tinggi (cm):</label>
+            <input type="number" id="tinggi-balok">
+        </div>
+
+        <div id="form-tabung" style="display:none;">
+            <label for="jari">Jari-Jari (cm):</label>
+            <input type="number" id="jari-tabung">
+            <br>
+            <label for="tinggi">Tinggi (cm):</label>
+            <input type="number" id="tinggi-tabung">
+        </div>
+      
+        <button onclick="hitungVolume()">Hitung</button>
+      
+        <div id="hasil"></div>
+        </div>
+
+        <script src="bgnruang.js"></script>
+    </body>
+</html>
